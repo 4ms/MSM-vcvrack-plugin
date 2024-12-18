@@ -1,0 +1,92 @@
+{
+    "MetaModulePluginMaintainer": "4ms",
+    "MetaModulePluginMaintainerEmail": "",
+    "MetaModulePluginMaintainerUrl": "",
+    "MetaModuleDescription": "",
+    "MetaModuleIncludedModules": [
+    {
+      "slug": "ADSR",
+      "name": "ADSR"
+    },
+    {
+      "slug": "Bitcrusher",
+      "name": "Bitcrusher"
+    },
+    {
+      "slug": "BlankPanel",
+      "name": "Blank Panel"
+    },
+    {
+      "slug": "DualDelay",
+      "name": "Dual Delay"
+    },
+    {
+      "slug": "TreasureVCO",
+      "name": "Treasure VCO"
+    },
+    {
+      "slug": "Fade",
+      "name": "Fade"
+    },
+    {
+      "slug": "MLFO",
+      "name": "MLFO"
+    },
+    {
+      "slug": "Morph",
+      "name": "Morph"
+    },
+    {
+      "slug": "Mult",
+      "name": "Mult"
+    },
+    {
+      "slug": "Noise",
+      "name": "Noise"
+    },
+    {
+      "slug": "Phaser",
+      "name": "Phaser"
+    },
+    {
+      "slug": "RandomSource",
+      "name": "Random Source"
+    },
+    {
+      "slug": "Ring",
+      "name": "Ring"
+    },
+    {
+      "slug": "SimpleSlider",
+      "name": "Simple Slider"
+    },
+    {
+      "slug": "CrazyMult",
+      "name": "CrazyMult"
+    },
+    {
+      "slug": "PAN-VCA",
+      "name": "PAN-VCA"
+    },
+    {
+      "slug": "OSCiX",
+      "name": "OSCiX"
+    },
+    {
+      "slug": "Rogue",
+      "name": "Rogue"
+    },
+    {
+      "slug": "Wavefolder",
+      "name": "Wavefolder"
+    },
+    {
+      "slug": "WaveShaper",
+      "name": "WaveShaper"
+    },
+    {
+      "slug": "XSEQ",
+      "name": "XSEQ"
+    }
+    ]
+}

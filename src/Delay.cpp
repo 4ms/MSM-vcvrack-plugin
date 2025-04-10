@@ -558,11 +558,11 @@ struct DisplayWidget : TransparentWidget {
 			nvgFontFaceId(args.vg, font->handle);
 			nvgTextLetterSpacing(args.vg, 2.5);
 
-			std::stringstream to_display;
+			char text[16];
 			if (value) {
-				to_display << std::left << std::setw(5) << *value;
+				snprintf(text, sizeof(text), "%-5d", *value);
 			} else {
-			to_display << std::left << std::setw(5) << 500;
+				snprintf(text, sizeof(text), "%-5d", 500);
 			}
 
 			Vec textPos = Vec(3.0f, 17.0f);
@@ -577,7 +577,7 @@ struct DisplayWidget : TransparentWidget {
 
 			textColor = nvgRGB(12, 216, 255);
 			nvgFillColor(args.vg, textColor);
-			nvgText(args.vg, textPos.x, textPos.y, to_display.str().c_str(), NULL);
+			nvgText(args.vg, textPos.x, textPos.y, text, NULL);
 		}
 	}
 };

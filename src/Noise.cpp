@@ -30,7 +30,7 @@ struct Noise : Module {
 	// Panel Theme
 	int Theme = 0;
 
-	VRand *VR = new VRand();
+	VRand VR;
 
 	dsp::RCFilter filterL;
 	dsp::RCFilter filterH;
@@ -69,8 +69,8 @@ struct Noise : Module {
 
 void Noise::process(const ProcessArgs& args) {
 
-	float WNoise = VR->white();
-	float BNoise = VR->brown();
+	float WNoise = VR.white();
+	float BNoise = VR.brown();
 	float CNoise = WNoise;
 
 		  b0 = 0.99886 * b0 + WNoise * 0.0555179;
